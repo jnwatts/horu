@@ -1,0 +1,25 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +3.3V_SDA
+K POWER, PWR
+$ENDCMP
+#
+$CMP 74LS125
+D Quad buffer 3 State out
+K TTL buffer 3State
+$ENDCMP
+#
+$CMP 74LVC125
+D Quad buffer 3 State out
+K TTL buffer 3State
+$ENDCMP
+#
+$CMP VUSB
+K POWER, PWR
+$ENDCMP
+#
+$CMP VUSB_SDA
+K POWER, PWR
+$ENDCMP
+#
+#End Doc Library
