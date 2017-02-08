@@ -1,0 +1,673 @@
+EESchema Schematic File Version 2
+LIBS:horu
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:KL25P80M48SF0
+LIBS:K20P32M50SF0
+LIBS:52271-3079
+LIBS:UX60SC-MB-5S8
+LIBS:usb-type-c
+LIBS:PI3USB3102-334678
+LIBS:horu-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L USB_TYPE_C U202
+U 1 1 589ADCA8
+P 5500 1500
+F 0 "U202" H 5500 1500 60  0000 C CNN
+F 1 "USB_TYPE_C" H 5500 1750 60  0000 C CNN
+F 2 "" H 5500 1500 60  0001 C CNN
+F 3 "" H 5500 1500 60  0000 C CNN
+	1    5500 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R207
+U 1 1 589ADCAF
+P 6950 1850
+F 0 "R207" H 6750 1800 50  0000 L CNN
+F 1 "5.1k" H 6750 1900 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 6950 1850 50  0001 C CNN
+F 3 "" H 6950 1850 50  0000 C CNN
+	1    6950 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L R_Small R206
+U 1 1 589ADCB6
+P 3800 1550
+F 0 "R206" H 3600 1500 50  0000 L CNN
+F 1 "5.1k" H 3600 1600 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 3800 1550 50  0001 C CNN
+F 3 "" H 3800 1550 50  0000 C CNN
+	1    3800 1550
+	-1   0    0    1   
+$EndComp
+Text Label 6350 1450 0    60   ~ 0
+USB_DN_A
+Text Label 6350 1550 0    60   ~ 0
+USB_DP_A
+Text Label 4600 1550 2    60   ~ 0
+USB_DN_A
+Text Label 4600 1450 2    60   ~ 0
+USB_DP_A
+$Comp
+L GND #PWR012
+U 1 1 589ADCC1
+P 3800 1750
+F 0 "#PWR012" H 3800 1500 50  0001 C CNN
+F 1 "GND" H 3800 1600 50  0000 C CNN
+F 2 "" H 3800 1750 50  0000 C CNN
+F 3 "" H 3800 1750 50  0000 C CNN
+	1    3800 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR013
+U 1 1 589ADCC7
+P 6950 2050
+F 0 "#PWR013" H 6950 1800 50  0001 C CNN
+F 1 "GND" H 6950 1900 50  0000 C CNN
+F 2 "" H 6950 2050 50  0000 C CNN
+F 3 "" H 6950 2050 50  0000 C CNN
+	1    6950 2050
+	1    0    0    -1  
+$EndComp
+Text Label 6350 1750 0    60   ~ 0
+USB_VBUS
+$Comp
+L L L201
+U 1 1 589ADCCE
+P 2000 3800
+F 0 "L201" V 1950 3800 50  0000 C CNN
+F 1 "330 Ohm" V 2075 3800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 2000 3800 50  0001 C CNN
+F 3 "" H 2000 3800 50  0000 C CNN
+	1    2000 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L VUSB #PWR014
+U 1 1 589ADCD5
+P 2700 3700
+F 0 "#PWR014" H 2700 3550 50  0001 C CNN
+F 1 "VUSB" H 2700 3840 50  0000 C CNN
+F 2 "" H 2700 3700 50  0000 C CNN
+F 3 "" H 2700 3700 50  0000 C CNN
+	1    2700 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C201
+U 1 1 589ADCDB
+P 2700 4000
+F 0 "C201" H 2710 4070 50  0000 L CNN
+F 1 "1.0 uF" H 2710 3920 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 2700 4000 50  0001 C CNN
+F 3 "" H 2700 4000 50  0000 C CNN
+	1    2700 4000
+	1    0    0    -1  
+$EndComp
+Text Label 1750 3800 2    60   ~ 0
+USB_VBUS
+$Comp
+L PWR_FLAG #FLG015
+U 1 1 589ADCF4
+P 2350 3700
+F 0 "#FLG015" H 2350 3795 50  0001 C CNN
+F 1 "PWR_FLAG" H 2350 3880 50  0000 C CNN
+F 2 "" H 2350 3700 50  0000 C CNN
+F 3 "" H 2350 3700 50  0000 C CNN
+	1    2350 3700
+	1    0    0    -1  
+$EndComp
+Text Label 4600 1750 2    60   ~ 0
+USB_VBUS
+$Comp
+L L L202
+U 1 1 589ADCFD
+P 2000 4100
+F 0 "L202" V 1950 4100 50  0000 C CNN
+F 1 "330 Ohm" V 2075 4100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 2000 4100 50  0001 C CNN
+F 3 "" H 2000 4100 50  0000 C CNN
+	1    2000 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR016
+U 1 1 589ADD06
+P 2700 4500
+F 0 "#PWR016" H 2700 4250 50  0001 C CNN
+F 1 "GND" H 2700 4350 50  0000 C CNN
+F 2 "" H 2700 4500 50  0000 C CNN
+F 3 "" H 2700 4500 50  0000 C CNN
+	1    2700 4500
+	1    0    0    -1  
+$EndComp
+Text Label 4600 1250 2    60   ~ 0
+USB_VBUS
+Text Label 6350 1250 0    60   ~ 0
+USB_VBUS
+NoConn ~ 6350 1350
+NoConn ~ 4600 1650
+Text HLabel 1300 900  0    60   Input ~ 0
+UART_SEL
+Text HLabel 1300 1000 0    60   Input ~ 0
+UART_TX
+Text HLabel 1300 1100 0    60   Output ~ 0
+UART_RX
+Text HLabel 1300 1300 0    60   Input ~ 0
+USB_SEL
+Text HLabel 1300 1400 0    60   BiDi ~ 0
+USB_DN
+Text HLabel 1300 1500 0    60   BiDi ~ 0
+USB_DP
+Text Label 4600 1050 2    60   ~ 0
+UART_TX_A
+Text Label 6350 1050 0    60   ~ 0
+UART_RX_A
+Text Label 4600 1950 2    60   ~ 0
+UART_RX_A
+Text Label 6350 1950 0    60   ~ 0
+UART_TX_A
+NoConn ~ 6350 1850
+NoConn ~ 4600 1850
+NoConn ~ 4600 1150
+NoConn ~ 6350 1150
+Text HLabel 1300 1700 0    60   Output ~ 0
+SENSE_A
+Text HLabel 1300 1800 0    60   Input ~ 0
+OEn
+$Comp
+L 74LVC1G32 U201
+U 1 1 589AE5C4
+P 2500 1700
+F 0 "U201" H 2500 1750 50  0000 C CNN
+F 1 "74LVC1G32" H 2500 1650 50  0000 C CNN
+F 2 "" H 2500 1700 50  0001 C CNN
+F 3 "" H 2500 1700 50  0000 C CNN
+	1    2500 1700
+	-1   0    0    -1  
+$EndComp
+Text Label 4600 1350 2    60   ~ 0
+CC1_A
+$Comp
+L +3.3V #PWR017
+U 1 1 589AE6C9
+P 2700 1250
+F 0 "#PWR017" H 2700 1100 50  0001 C CNN
+F 1 "+3.3V" H 2700 1390 50  0000 C CNN
+F 2 "" H 2700 1250 50  0000 C CNN
+F 3 "" H 2700 1250 50  0000 C CNN
+	1    2700 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR018
+U 1 1 589AE71B
+P 2700 2200
+F 0 "#PWR018" H 2700 1950 50  0001 C CNN
+F 1 "GND" H 2700 2050 50  0000 C CNN
+F 2 "" H 2700 2200 50  0000 C CNN
+F 3 "" H 2700 2200 50  0000 C CNN
+	1    2700 2200
+	1    0    0    -1  
+$EndComp
+Text Label 1400 1800 0    60   ~ 0
+OEn
+Text Label 1400 1500 0    60   ~ 0
+USB_DP
+Text Label 1400 1400 0    60   ~ 0
+USB_DN
+Text Label 1400 1300 0    60   ~ 0
+USB_SEL
+Text Label 1400 1100 0    60   ~ 0
+UART_RX
+Text Label 1400 1000 0    60   ~ 0
+UART_TX
+Text Label 1400 900  0    60   ~ 0
+UART_SEL
+Text Label 3100 1600 0    60   ~ 0
+CC1_A
+Text Label 6350 1650 0    60   ~ 0
+CC2_A
+Text Label 3100 1800 0    60   ~ 0
+CC2_A
+Text Label 1750 4100 2    60   ~ 0
+USB_SHIELD
+Text Label 6350 950  0    60   ~ 0
+USB_GND
+Text Label 6350 2050 0    60   ~ 0
+USB_GND
+Text Label 4600 950  2    60   ~ 0
+USB_GND
+Text Label 4600 2050 2    60   ~ 0
+USB_GND
+Text Label 5500 2400 3    60   ~ 0
+USB_SHIELD
+$Comp
+L USB_TYPE_C U204
+U 1 1 589AF14C
+P 9100 1500
+F 0 "U204" H 9100 1500 60  0000 C CNN
+F 1 "USB_TYPE_C" H 9100 1750 60  0000 C CNN
+F 2 "" H 9100 1500 60  0001 C CNN
+F 3 "" H 9100 1500 60  0000 C CNN
+	1    9100 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R209
+U 1 1 589AF152
+P 10550 1850
+F 0 "R209" H 10350 1800 50  0000 L CNN
+F 1 "5.1k" H 10350 1900 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 10550 1850 50  0001 C CNN
+F 3 "" H 10550 1850 50  0000 C CNN
+	1    10550 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L R_Small R208
+U 1 1 589AF158
+P 7400 1550
+F 0 "R208" H 7200 1500 50  0000 L CNN
+F 1 "5.1k" H 7200 1600 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 7400 1550 50  0001 C CNN
+F 3 "" H 7400 1550 50  0000 C CNN
+	1    7400 1550
+	-1   0    0    1   
+$EndComp
+Text Label 9950 1450 0    60   ~ 0
+USB_DN_B
+Text Label 9950 1550 0    60   ~ 0
+USB_DP_B
+Text Label 8200 1550 2    60   ~ 0
+USB_DN_B
+Text Label 8200 1450 2    60   ~ 0
+USB_DP_B
+$Comp
+L GND #PWR019
+U 1 1 589AF162
+P 7400 1750
+F 0 "#PWR019" H 7400 1500 50  0001 C CNN
+F 1 "GND" H 7400 1600 50  0000 C CNN
+F 2 "" H 7400 1750 50  0000 C CNN
+F 3 "" H 7400 1750 50  0000 C CNN
+	1    7400 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR020
+U 1 1 589AF168
+P 10550 2050
+F 0 "#PWR020" H 10550 1800 50  0001 C CNN
+F 1 "GND" H 10550 1900 50  0000 C CNN
+F 2 "" H 10550 2050 50  0000 C CNN
+F 3 "" H 10550 2050 50  0000 C CNN
+	1    10550 2050
+	1    0    0    -1  
+$EndComp
+Text Label 9950 1750 0    60   ~ 0
+USB_VBUS
+Text Label 8200 1750 2    60   ~ 0
+USB_VBUS
+Text Label 8200 1250 2    60   ~ 0
+USB_VBUS
+Text Label 9950 1250 0    60   ~ 0
+USB_VBUS
+NoConn ~ 9950 1350
+NoConn ~ 8200 1650
+Text Label 8200 1050 2    60   ~ 0
+UART_TX_B
+Text Label 9950 1050 0    60   ~ 0
+UART_RX_B
+Text Label 8200 1950 2    60   ~ 0
+UART_RX_B
+Text Label 9950 1950 0    60   ~ 0
+UART_TX_B
+NoConn ~ 9950 1850
+NoConn ~ 8200 1850
+NoConn ~ 8200 1150
+NoConn ~ 9950 1150
+Text Label 8200 1350 2    60   ~ 0
+CC1_B
+Text Label 9950 1650 0    60   ~ 0
+CC2_B
+Text Label 9950 950  0    60   ~ 0
+USB_GND
+Text Label 9950 2050 0    60   ~ 0
+USB_GND
+Text Label 8200 950  2    60   ~ 0
+USB_GND
+Text Label 8200 2050 2    60   ~ 0
+USB_GND
+Text Label 9100 2400 3    60   ~ 0
+USB_SHIELD
+$Comp
+L PI3USB3102-334678 U203
+U 1 1 589B0A54
+P 5550 4600
+F 0 "U203" H 5550 4600 50  0000 C CNN
+F 1 "PI3USB3102-334678" H 5550 4800 50  0000 C CNN
+F 2 "TQFN-32" H 5550 4700 50  0001 C CNN
+F 3 "DOCUMENTATION" H 5550 4700 50  0001 C CNN
+	1    5550 4600
+	1    0    0    -1  
+$EndComp
+Text Label 4500 4700 2    60   ~ 0
+UART_SEL
+Text Label 4500 4800 2    60   ~ 0
+USB_SEL
+Text Label 4500 4900 2    60   ~ 0
+OEn
+Text Label 4500 4000 2    60   ~ 0
+UART_TX
+Text Label 4500 4200 2    60   ~ 0
+UART_RX
+Text Label 4500 4500 2    60   ~ 0
+USB_DN
+Text Label 4500 4400 2    60   ~ 0
+USB_DP
+NoConn ~ 4500 4100
+NoConn ~ 4500 4300
+NoConn ~ 4500 4600
+$Comp
+L +3.3V #PWR021
+U 1 1 589B0E4C
+P 5300 3300
+F 0 "#PWR021" H 5300 3150 50  0001 C CNN
+F 1 "+3.3V" H 5300 3440 50  0000 C CNN
+F 2 "" H 5300 3300 50  0000 C CNN
+F 3 "" H 5300 3300 50  0000 C CNN
+	1    5300 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR022
+U 1 1 589B0FE3
+P 5300 5950
+F 0 "#PWR022" H 5300 5700 50  0001 C CNN
+F 1 "GND" H 5300 5800 50  0000 C CNN
+F 2 "" H 5300 5950 50  0000 C CNN
+F 3 "" H 5300 5950 50  0000 C CNN
+	1    5300 5950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6600 4500
+NoConn ~ 6600 5300
+NoConn ~ 6600 5000
+NoConn ~ 6600 4800
+NoConn ~ 6600 4000
+NoConn ~ 6600 4200
+Text Label 6600 4100 0    60   ~ 0
+UART_RX_A
+Text Label 6600 3900 0    60   ~ 0
+UART_TX_A
+Text Label 6600 4400 0    60   ~ 0
+USB_DN_A
+Text Label 6600 4300 0    60   ~ 0
+USB_DP_A
+Text Label 6600 5100 0    60   ~ 0
+USB_DP_B
+Text Label 6600 5200 0    60   ~ 0
+USB_DN_B
+Text Label 6600 4900 0    60   ~ 0
+UART_RX_B
+Text Label 6600 4700 0    60   ~ 0
+UART_TX_B
+$Comp
+L R_Small R201
+U 1 1 589B4F7B
+P 3250 4500
+F 0 "R201" H 3050 4450 50  0000 L CNN
+F 1 "10k" H 3050 4550 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 3250 4500 50  0001 C CNN
+F 3 "" H 3250 4500 50  0000 C CNN
+	1    3250 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L +3.3V #PWR023
+U 1 1 589B5045
+P 3250 4300
+F 0 "#PWR023" H 3250 4150 50  0001 C CNN
+F 1 "+3.3V" H 3250 4440 50  0000 C CNN
+F 2 "" H 3250 4300 50  0000 C CNN
+F 3 "" H 3250 4300 50  0000 C CNN
+	1    3250 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R202
+U 1 1 589B5168
+P 3500 4500
+F 0 "R202" H 3300 4450 50  0000 L CNN
+F 1 "10k" H 3300 4550 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 3500 4500 50  0001 C CNN
+F 3 "" H 3500 4500 50  0000 C CNN
+	1    3500 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L R_Small R204
+U 1 1 589B51EA
+P 3750 4500
+F 0 "R204" H 3550 4450 50  0000 L CNN
+F 1 "10k" H 3550 4550 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 3750 4500 50  0001 C CNN
+F 3 "" H 3750 4500 50  0000 C CNN
+	1    3750 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR024
+U 1 1 589B54EB
+P 3500 5400
+F 0 "#PWR024" H 3500 5150 50  0001 C CNN
+F 1 "GND" H 3500 5250 50  0000 C CNN
+F 2 "" H 3500 5400 50  0000 C CNN
+F 3 "" H 3500 5400 50  0000 C CNN
+	1    3500 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R203
+U 1 1 589B55F8
+P 3500 5100
+F 0 "R203" H 3300 5050 50  0000 L CNN
+F 1 "DNP" H 3300 5150 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 3500 5100 50  0001 C CNN
+F 3 "" H 3500 5100 50  0000 C CNN
+	1    3500 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L R_Small R205
+U 1 1 589B55FE
+P 3750 5100
+F 0 "R205" H 3550 5050 50  0000 L CNN
+F 1 "DNP" H 3550 5150 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 3750 5100 50  0001 C CNN
+F 3 "" H 3750 5100 50  0000 C CNN
+	1    3750 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L PWR_FLAG #FLG025
+U 1 1 589B5D41
+P 2350 4500
+F 0 "#FLG025" H 2350 4595 50  0001 C CNN
+F 1 "PWR_FLAG" H 2350 4680 50  0000 C CNN
+F 2 "" H 2350 4500 50  0000 C CNN
+F 3 "" H 2350 4500 50  0000 C CNN
+	1    2350 4500
+	-1   0    0    1   
+$EndComp
+Text Label 1750 4400 2    60   ~ 0
+USB_GND
+Wire Wire Line
+	4600 1350 3800 1350
+Wire Wire Line
+	3800 1350 3800 1450
+Wire Wire Line
+	3800 1750 3800 1650
+Wire Wire Line
+	6350 1650 6950 1650
+Wire Wire Line
+	6950 1650 6950 1750
+Wire Wire Line
+	6950 2050 6950 1950
+Wire Wire Line
+	1750 3800 1850 3800
+Wire Wire Line
+	2700 3700 2700 3900
+Wire Wire Line
+	2150 3800 2700 3800
+Connection ~ 2700 3800
+Wire Wire Line
+	2700 4100 2700 4500
+Wire Wire Line
+	2350 3700 2350 3800
+Connection ~ 2350 3800
+Wire Wire Line
+	1750 4100 1850 4100
+Wire Wire Line
+	1900 1700 1300 1700
+Wire Wire Line
+	2700 1350 2700 1250
+Wire Wire Line
+	2700 2200 2700 2050
+Wire Wire Line
+	1300 1800 1400 1800
+Wire Wire Line
+	1300 1500 1400 1500
+Wire Wire Line
+	1300 1400 1400 1400
+Wire Wire Line
+	1300 1300 1400 1300
+Wire Wire Line
+	1300 1100 1400 1100
+Wire Wire Line
+	1300 1000 1400 1000
+Wire Wire Line
+	1300 900  1400 900 
+Wire Wire Line
+	8200 1350 7400 1350
+Wire Wire Line
+	7400 1350 7400 1450
+Wire Wire Line
+	7400 1750 7400 1650
+Wire Wire Line
+	9950 1650 10550 1650
+Wire Wire Line
+	10550 1650 10550 1750
+Wire Wire Line
+	10550 2050 10550 1950
+Wire Wire Line
+	5800 3400 5800 3500
+Wire Wire Line
+	5300 3400 5800 3400
+Wire Wire Line
+	5300 3300 5300 3500
+Connection ~ 5300 3400
+Wire Wire Line
+	5400 3500 5400 3400
+Connection ~ 5400 3400
+Wire Wire Line
+	5500 3500 5500 3400
+Connection ~ 5500 3400
+Wire Wire Line
+	5600 3500 5600 3400
+Connection ~ 5600 3400
+Wire Wire Line
+	5700 3500 5700 3400
+Connection ~ 5700 3400
+Wire Wire Line
+	5300 5750 5300 5950
+Wire Wire Line
+	5400 5750 5400 5850
+Wire Wire Line
+	5400 5850 5300 5850
+Connection ~ 5300 5850
+Wire Wire Line
+	4500 4900 3250 4900
+Wire Wire Line
+	3250 4900 3250 4600
+Wire Wire Line
+	3250 4300 3250 4400
+Wire Wire Line
+	4500 4700 3750 4700
+Wire Wire Line
+	3750 4600 3750 5000
+Wire Wire Line
+	4500 4800 3500 4800
+Wire Wire Line
+	3500 4600 3500 5000
+Wire Wire Line
+	3250 4350 3750 4350
+Wire Wire Line
+	3500 4350 3500 4400
+Connection ~ 3250 4350
+Wire Wire Line
+	3750 4350 3750 4400
+Connection ~ 3500 4350
+Wire Wire Line
+	3500 5200 3500 5400
+Wire Wire Line
+	3500 5300 3750 5300
+Wire Wire Line
+	3750 5300 3750 5200
+Connection ~ 3500 5300
+Connection ~ 3500 4800
+Connection ~ 3750 4700
+Wire Wire Line
+	1750 4400 2700 4400
+Connection ~ 2700 4400
+Wire Wire Line
+	2350 4100 2350 4500
+Connection ~ 2350 4400
+Wire Wire Line
+	2150 4100 2350 4100
+$EndSCHEMATC

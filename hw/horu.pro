@@ -1,4 +1,4 @@
-update=Sat 04 Feb 2017 04:31:10 PM EST
+update=Tue 07 Feb 2017 11:11:45 PM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -63,3 +63,5 @@ LibName31=KL25P80M48SF0
 LibName32=K20P32M50SF0
 LibName33=52271-3079
 LibName34=UX60SC-MB-5S8
+LibName35=libs/usb-type-c-kicad-lib/usb-type-c
+LibName36=libs/PI3USB3102-334678

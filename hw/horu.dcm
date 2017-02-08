@@ -14,6 +14,11 @@ D Quad buffer 3 State out
 K TTL buffer 3State
 $ENDCMP
 #
+$CMP 74LVC1G32
+D Quad Or 2 inputs
+K TTL Or2
+$ENDCMP
+#
 $CMP VUSB
 K POWER, PWR
 $ENDCMP
