@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name Housings_QFP)(type KiCad)(uri "$(KIPRJMOD)/footprints/Housings_QFP.pretty")(options "")(descr ""))
   (lib (name usb-type-c)(type KiCad)(uri "$(KIPRJMOD)/footprints/usb-type-c.pretty")(options "")(descr ""))
+  (lib (name horu)(type KiCad)(uri "$(KIPRJMOD)/footprints/horu.pretty")(options "")(descr ""))
 )
