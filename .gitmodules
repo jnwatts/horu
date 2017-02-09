@@ -1,0 +1,9 @@
+[submodule "hw/libs/usb-type-c-kicad-lib"]
+	path = hw/libs/usb-type-c-kicad-lib
+	url = https://github.com/manisteinn/usb-type-c-kicad-lib.git
+[submodule "hw/footprints/usb-type-c.pretty"]
+	path = hw/footprints/usb-type-c.pretty
+	url = https://github.com/manisteinn/usb-type-c.pretty.git
+[submodule "hw/footprints/Housings_QFP.pretty"]
+	path = hw/footprints/Housings_QFP.pretty
+	url = https://github.com/KiCad/Housings_QFP.pretty.git
