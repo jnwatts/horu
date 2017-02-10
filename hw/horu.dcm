@@ -19,6 +19,11 @@ D Quad Or 2 inputs
 K TTL Or2
 $ENDCMP
 #
+$CMP CONN_01X30_2SHIELD
+D Connector, single row, 01x30
+K connector
+$ENDCMP
+#
 $CMP VUSB
 K POWER, PWR
 $ENDCMP
