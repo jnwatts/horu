@@ -1,4 +1,4 @@
-update=Tue 07 Feb 2017 11:11:45 PM EST
+update=Sun 26 Feb 2017 10:20:38 PM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -65,3 +65,13 @@ LibName33=52271-3079
 LibName34=UX60SC-MB-5S8
 LibName35=libs/usb-type-c-kicad-lib/usb-type-c
 LibName36=libs/PI3USB3102-334678
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
