@@ -1594,5 +1594,5 @@ Wire Wire Line
 Wire Wire Line
 	2500 7100 2350 7100
 Text Notes 7350 7500 0    60   ~ 0
-Horu v0.1
+Horu v0.2
 $EndSCHEMATC
