@@ -1,4 +1,4 @@
-update=Mon 27 Feb 2017 08:23:21 PM EST
+update=Sun 19 Mar 2017 01:11:49 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,6 +25,16 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=
@@ -65,13 +75,3 @@ LibName33=52271-3079
 LibName34=UX60SC-MB-5S8
 LibName35=libs/usb-type-c-kicad-lib/usb-type-c
 LibName36=libs/PI3USB3102-334678
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60

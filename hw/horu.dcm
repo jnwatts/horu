@@ -24,6 +24,12 @@ D Connector, single row, 01x30
 K connector
 $ENDCMP
 #
+$CMP D_Zener_x2_ACom_KKA
+D Zener Diode, small symbol, alternativ symbol
+K diode
+F https://en.wikipedia.org/wiki/Zener_diode
+$ENDCMP
+#
 $CMP VUSB
 K POWER, PWR
 $ENDCMP
