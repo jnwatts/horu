@@ -7,3 +7,11 @@
 [submodule "hw/footprints/Housings_QFP.pretty"]
 	path = hw/footprints/Housings_QFP.pretty
 	url = https://github.com/KiCad/Housings_QFP.pretty.git
+[submodule "sw/ChibiOS"]
+	path = sw/ChibiOS
+	url = https://github.com/ChibiOS/ChibiOS.git
+	branch = stable_16.1.x
+[submodule "sw/ChibiOS-Contrib"]
+	path = sw/ChibiOS-Contrib
+	url = https://github.com/ChibiOS/ChibiOS-Contrib.git
+	branch = master
