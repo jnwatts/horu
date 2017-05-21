@@ -38,33 +38,14 @@
 /*
  * Onboard features.
  */
-#define GPIO_LED_RED    IOPORT2
-#define PIN_LED_RED     18
-#define GPIO_LED_GREEN  IOPORT2
-#define PIN_LED_GREEN   19
-#define GPIO_LED_BLUE   IOPORT4
-#define PIN_LED_BLUE    1
-
-/* Inertial sensor: MMA8451Q */
-/* Default I2C address 0x1D */
-/* Note: the pins PTE24/25 are assigned to I2C0 by default;
- *       if I2C0 is wanted on other pins, these need to be
- *       assigned another function explicitly!
- */
-#define I2C_GYRO I2C0
-
-#define LINE_LED_RED    PAL_LINE(GPIO_LED_RED, PIN_LED_RED)
-#define LINE_LED_GREEN  PAL_LINE(GPIO_LED_GREEN, PIN_LED_GREEN)
-#define LINE_LED_BLUE   PAL_LINE(GPIO_LED_BLUE, PIN_LED_BLUE)
-#define LINE_GYRO_SCL   PAL_LINE(GPIOE, 24U)
-#define LINE_GYRO_SDA   PAL_LINE(GPIOE, 25U)
-#define LINE_GYRO_INT1  PAL_LINE(GPIOA, 14U)
-#define LINE_GYRO_INT2  PAL_LINE(GPIOA, 15U)
-
-/*
- * Not configured:
- *  - TSI Slider on PTB16/TSI0_CH9 and PTB17/TSI_CH10
- */
+#define LINE_LED_0      PAL_LINE(IOPORT1, 4)
+#define LINE_LED_1      PAL_LINE(IOPORT1, 5)
+#define LINE_LED_2      PAL_LINE(IOPORT1, 12)
+#define LINE_LED_3      PAL_LINE(IOPORT1, 13)
+#define LINE_DBG_0      PAL_LINE(IOPORT1, 14)
+#define LINE_DBG_1      PAL_LINE(IOPORT1, 15)
+#define LINE_DBG_2      PAL_LINE(IOPORT1, 16)
+#define LINE_DBG_3      PAL_LINE(IOPORT1, 17)
 
 #if !defined(_FROM_ASM_)
 #ifdef __cplusplus
