@@ -18,13 +18,9 @@
 #define _BOARD_H_
 
 /*
- * Setup for Freescale Freedom KL25Z board.
- */
-
-/*
  * Board identifier.
  */
-#define BOARD_FREESCALE_FREEDOM_KL25Z
+#define BOARD_SROZ_HORU
 #define BOARD_NAME                  "Horu"
 
 /* External 8 MHz crystal. */
