@@ -87,5 +87,11 @@ NKRO_ENABLE = yes	    # USB Nkey Rollover
 include $(TMK_DIR)/tool/chibios/common.mk
 include $(TMK_DIR)/tool/chibios/chibios.mk
 
+openocd:
+	openocd -f kl25.cfg &
+
+gdb:
+	$(TRGT)gdb build/horu.elf -ex="target remote localhost:3333"
+
 program: $(BUILDDIR)/$(PROJECT).bin
 	dfu-util -D $(BUILDDIR)/$(PROJECT).bin
