@@ -1,0 +1,9 @@
+(sym_lib_table
+  (lib (name horu-rescue)(type Legacy)(uri ${KIPRJMOD}/horu-rescue.lib)(options "")(descr ""))
+  (lib (name horu)(type Legacy)(uri ${KIPRJMOD}/horu.lib)(options "")(descr ""))
+  (lib (name KL25P80M48SF0)(type Legacy)(uri ${KIPRJMOD}/KL25P80M48SF0.lib)(options "")(descr ""))
+  (lib (name K20P32M50SF0)(type Legacy)(uri ${KIPRJMOD}/K20P32M50SF0.lib)(options "")(descr ""))
+  (lib (name 52271-3079)(type Legacy)(uri ${KIPRJMOD}/52271-3079.lib)(options "")(descr ""))
+  (lib (name UX60SC-MB-5S8)(type Legacy)(uri ${KIPRJMOD}/UX60SC-MB-5S8.lib)(options "")(descr ""))
+  (lib (name PI3USB3102-334678)(type Legacy)(uri ${KIPRJMOD}/libs/PI3USB3102-334678.lib)(options "")(descr ""))
+)
